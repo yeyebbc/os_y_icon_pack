@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress CheckTagEmptyBody -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <!-- Make sure to put at least 8 icons -->
+    <string-array name="icons_preview">
+        <item>system_phone</item>
+        <item>system_gallery</item>
+        <item>system_contacts</item>
+        <item>system_camera</item>
+        <item>system_messages</item>
+    </string-array>
+
+    <!-- These sections below are for your "Previews" section -->
+    <!-- These names should match YOUR actual icon names
+    	 the names used below are just for sampling purposes -->
+
+    <!-- Make sure the filters names are the same as the other arrays -->
+    <string-array name="icon_filters">
+        <item>all_other</item>
+        <item>games</item>
+        <item>system</item>
+        <item>google</item>
+    </string-array>
+
+    <string-array name="all_other">
+        <item>simple_phone</item>
+        <item>simple_contacts</item>
+        <item>simple_messages</item>
+        <item>simple_gallery</item>
+        <item>telegram_x</item>
+        <item>telegram</item>
+        <item>wechat</item>
+        <item>apple_music</item>
+        <item>poweramp</item>
+        <item>poweramp_equaliser</item>
+        <item>aves</item>
+        <item>qq</item>
+    </string-array>
+
+    <string-array name="system">
+        <item>system_phone</item>
+        <item>system_messages</item>
+        <item>system_gallery</item>
+        <item>system_contacts</item>
+        <item>system_camera</item>
+        <item>system_camera_sony</item>
+        <item>system_store</item>
+        <item>system_clock</item>
+        <item>system_clock_material</item>
+        <item>system_settings</item>
+    </string-array>
+
+    <string-array name="google">
+        <item>google_messages</item>
+        <item>google_play_store</item>
+        <item>google_clock</item>
+        <item>google_phone</item>
+        <item>google_camera</item>
+    </string-array>
+</resources>

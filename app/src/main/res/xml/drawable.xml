@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <version>1</version>
+    <category title="Latest" />
+    <category title="Games" />
+    <category title="System" />
+    <category title="Google" />
+    <category title="All Other" />
+
+</resources>
