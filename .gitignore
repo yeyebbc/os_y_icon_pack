@@ -4,5 +4,6 @@
 /.idea/*
 /.idea
 /local.properties
+.DS_Store
 .apk
 .aab
