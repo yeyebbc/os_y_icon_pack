@@ -22,6 +22,15 @@
     <item component="ComponentInfo{com.tencent.mobileqq/com.TMore.qq.activity.InitializationActivity}" drawable="qq"/>
     <item component="ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}" drawable="qq" />
     <item component="ComponentInfo{com.tencent.minihd.qq/com.tencent.mobileqq.activity.SplashActivity}" drawable="qq" />
+    <item component="ComponentInfo{com.tencent.tim/com.tencent.mobileqq.activity.SplashActivity}" drawable="tim" />
+    <item component="ComponentInfo{kr.co.manhole.hujicam/kr.co.manhole.hujicam.d_Main.HJLaunch}" drawable="huji" />
+    <item component="ComponentInfo{com.google.android.apps.photos.offline/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos" />
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="google_calendar" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="google_calendar" />
+<!-- Dynamic Calendars -->
+    <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="system_calendar_" />
 <!--  Settings  -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.GnSettingsTabActivity}" drawable="system_settings" />
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="system_settings" />
@@ -54,6 +63,8 @@
     <item component="ComponentInfo{com.best.deskclock/com.best.deskclock.DeskClock}" drawable="google_clock"/>
     <item component="ComponentInfo{com.chen.deskclock/com.chen.deskclock.DeskClock}" drawable="system_clock_material"/>
 <!-- Camera -->
+    <item component="ComponentInfo{com.sonymobile.photographypro/com.sonymobile.photopro.PhotoProActivity}" drawable="system_camera_sony_pro"/>
+    <item component="ComponentInfo{com.sonymobile.photopro/com.sonymobile.photopro.PhotoProActivity}" drawable="system_camera_sony_pro"/>
     <item component="ComponentInfo{org.lineageos.aperture/org.lineageos.aperture.CameraLauncher}" drawable="system_camera"/>
     <item component="ComponentInfo{app.grapheneos.camera.play/app.grapheneos.camera.ui.activities.MainActivity}" drawable="system_camera" />
     <item component="ComponentInfo{app.grapheneos.camera/app.grapheneos.camera.ui.activities.MainActivity}" drawable="system_camera" />

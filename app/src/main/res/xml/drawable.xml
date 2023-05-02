@@ -1,11 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
-
     <version>1</version>
     <category title="Latest" />
+    
     <category title="Games" />
-    <category title="System" />
-    <category title="Google" />
-    <category title="All Other" />
+    
+    <category title="System" >
+        <item drawable="system_phone" />
+        <item drawable="system_messages" />
+        <item drawable="system_gallery" />
+        <item drawable="system_contacts" />
+        <item drawable="system_camera" />
+        <item drawable="system_camera_sony" />
+        <item drawable="system_camera_sony_pro" />
+        <item drawable="system_camera_vintage" />
+        <item drawable="system_store" />
+        <item drawable="system_clock" />
+        <item drawable="system_clock_material" />
+        <item drawable="system_settings" />
+        <item drawable="system_calendar" />
+    </category>
+    
+    <category title="Google" >
+        <item drawable="google_messages" />
+        <item drawable="google_play_store" />
+        <item drawable="google_clock" />
+        <item drawable="google_phone" />
+        <item drawable="google_camera" />
+        <item drawable="google_photos" />
+        <item drawable="google_contacts" />
+        <item drawable="google_contacts_alt" />
+    </category>
+    
+    <category title="Dynamic Calendars">
+        <item drawable="system_calendar_1" />
+        <item drawable="system_calendar_2" />
+        <item drawable="system_calendar_3" />
+        <item drawable="system_calendar_4" />
+        <item drawable="system_calendar_5" />
+        <item drawable="system_calendar_6" />
+        <item drawable="system_calendar_7" />
+        <item drawable="system_calendar_8" />
+        <item drawable="system_calendar_9" />
+        <item drawable="system_calendar_10" />
+        <item drawable="system_calendar_11" />
+        <item drawable="system_calendar_12" />
+        <item drawable="system_calendar_13" />
+        <item drawable="system_calendar_14" />
+        <item drawable="system_calendar_15" />
+        <item drawable="system_calendar_16" />
+        <item drawable="system_calendar_17" />
+        <item drawable="system_calendar_18" />
+        <item drawable="system_calendar_19" />
+        <item drawable="system_calendar_20" />
+        <item drawable="system_calendar_21" />
+        <item drawable="system_calendar_22" />
+        <item drawable="system_calendar_23" />
+        <item drawable="system_calendar_24" />
+        <item drawable="system_calendar_25" />
+        <item drawable="system_calendar_26" />
+        <item drawable="system_calendar_27" />
+        <item drawable="system_calendar_28" />
+        <item drawable="system_calendar_29" />
+        <item drawable="system_calendar_30" />
+        <item drawable="system_calendar_31" />
+    </category>
+    <category title="All Other">
+        <item drawable="simple_phone" />
+        <item drawable="simple_contacts" />
+        <item drawable="simple_messages" />
+        <item drawable="simple_gallery" />
+        <item drawable="telegram_x" />
+        <item drawable="telegram" />
+        <item drawable="wechat" />
+        <item drawable="apple_music" />
+        <item drawable="poweramp" />
+        <item drawable="poweramp_equaliser" />
+        <item drawable="aves" />
+        <item drawable="qq" />
+        <item drawable="tim" />
+        <item drawable="huji" />
+    </category>
 
 </resources>
