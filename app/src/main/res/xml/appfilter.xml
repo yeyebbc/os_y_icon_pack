@@ -28,10 +28,311 @@
     <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos" />
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="google_calendar" />
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="google_calendar" />
-<!-- Dynamic Calendars -->
-    <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" prefix="system_calendar_" />
-    <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="system_calendar_" />
-<!--  Settings  -->
+    <item component="ComponentInfo{nekox.messenger/org.telegram.messenger.DefaultIcon}" drawable="nekogram_x" />
+    <item component="ComponentInfo{nekox.messenger/org.telegram.ui.LaunchActivity}" drawable="nekogram_x"/>
+    <item component="ComponentInfo{io.github.forkmaintainers.iceraven/io.github.forkmaintainers.iceraven.App}" drawable="iceraven"/>
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="google_chrome" />
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="firefox" />
+    <item component="ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.WelcomeScreenActivity}" drawable="snapseed" />
+    <item component="ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.MainActivity}" drawable="snapseed" />
+    <item component="ComponentInfo{com.niksoftare.smapseed/com.google.android.apps.snapseed.MainActivity}" drawable="snapseed" />
+    <item component="ComponentInfo{com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin}" drawable="alipay" />
+    <item component="ComponentInfo{com.freshideas.airindex/com.freshideas.airindex.Mask}" drawable="air_matters"/>
+    <item component="ComponentInfo{com.freshideas.airindex/com.freshideas.airindex.MainActivity}" drawable="air_matters" />
+    <item component="ComponentInfo{com.freshideas.airindex/com.freshideas.airindex.Sky}" drawable="air_matters" />
+    <item component="ComponentInfo{com.google.android.apps.assistant/com.google.android.apps.assistant.go.MainActivity}" drawable="google_assistant"/>
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromLauncher}" drawable="google_assistant" />
+    <item component="ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity}" drawable="google_assistant" />
+    <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity}" drawable="microsoft_authenticator"/>
+    <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.MainActivity}" drawable="microsoft_authenticator" />
+    <item component="ComponentInfo{keepass2android.keepass2android/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass2android" />
+    <item component="ComponentInfo{keepass2android.keepass2android/crc64ae7e22645ed9821f.KeePass}" drawable="keepass2android" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.free/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity}" drawable="keepassdx"/>
+    <!-- Keepass2Android Offline -->
+    <item component="ComponentInfo{keepass2android.keepass2android_nonet/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass2android_offline"/>
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="google_maps" />
+    <item component="ComponentInfo{com.meizu.net.map/com.meizu.net.map.MainMapActivity}" drawable="system_maps" />
+    <item component="ComponentInfo{com.baidu.BaiduMap.meizu/com.baidu.baidumaps.WelcomeScreen}" drawable="system_maps" />
+    <item component="ComponentInfo{com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen}" drawable="baidu_map" />
+    <item component="ComponentInfo{com.baidu.BaiduMap.zte/com.baidu.baidumaps.WelcomeScreen}" drawable="baidu_map" />
+    <item component="ComponentInfo{com.baidu.BaiduMap.samsung/com.baidu.baidumaps.WelcomeScreen}" drawable="baidu_map" />
+    <item component="ComponentInfo{com.baidu.BaiduMap.pad/com.baidu.baidumaps.WelcomeScreen}" drawable="baidu_map" />
+    <item component="ComponentInfo{com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity}" drawable="amap" />
+    <item component="ComponentInfo{com.autonavi.amapauto/com.autonavi.auto.remote.fill.UsbFillActivity}" drawable="amap" />
+    <item component="ComponentInfo{com.autonavi.minimap/com.autonavi.map.activity.SplashActivity}" drawable="amap" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail_alt" />
+    <item component="ComponentInfo{com.google.android.gm.lite/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail"/>
+    <item component="ComponentInfo{com.android.email/com.android.email.login.activity.WelcomeActivity}" drawable="system_mail" />
+    <item component="ComponentInfo{com.sonymobile.email/com.sonymobile.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.huawei.email/com.android.email.activity.Welcome}" drawable="system_mail"/>
+    <item component="ComponentInfo{com.tct.email/com.tct.email.activity.Welcome}" drawable="system_mail"/>
+    <item component="ComponentInfo{jp.softbank.mb.mail/jp.softbank.mb.mail.ui.MessageMainActivity}" drawable="system_mail" />
+    <item component="ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL}" drawable="system_mail" />
+    <item component="ComponentInfo{com.samsung.android.email.ui/com.samsung.android.email.ui.activity.MessageListXL}" drawable="system_mail" />
+    <item component="ComponentInfo{com.android.email/com.android.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.android.email/com.android.email.activity.EmailActivity}" drawable="system_mail" />
+    <item component="ComponentInfo{com.android.email/com.kingsoft.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.android.email/com.vivo.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.android.email/com.android.email.activity.ContainerActivity}" drawable="system_mail" />
+    <item component="ComponentInfo{com.motorola.email/com.android.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.vivo.email/com.vivo.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.zui.email/com.kingsoft.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{cn.nubia.email/com.android.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.lge.email/com.lge.email.ui.setupwizard.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.lenovo.email/com.kingsoft.email.activity.Welcome}" drawable="system_mail" />
+    <item component="ComponentInfo{com.mobimail.zte/com.netease.mobimail.activity.LaunchActivity}" drawable="system_mail" />
+    <item component="ComponentInfo{com.htc.android.mail/com.htc.android.mail.MultipleActivitiesMain}" drawable="system_mail" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="google_app" />
+    <item component="ComponentInfo{com.google.android.apps.searchlite/com.google.android.apps.searchlite.ui.SearchActivity}" drawable="google_go"/>
+    <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="f_droid"/>
+    <item component="ComponentInfo{com.looker.droidify/com.looker.droidify.MainActivity}" drawable="droid_ify" />
+    <item component="ComponentInfo{com.tct.calculator/com.tct.calculator.activity.CalculatorActivity}" drawable="system_calculator"/>
+    <item component="ComponentInfo{com.tct.calculator/com.tct.calculator.Calculator}" drawable="system_calculator"/>
+    <item component="ComponentInfo{com.coloros.calculator/com.android.calculator2.Calculator}" drawable="system_calculator"/>
+    <item component="ComponentInfo{com.asus.calculator/com.asus.calculator.Calculator}" drawable="system_calculator"/>
+    <item component="ComponentInfo{jp.co.sharp.android.calc/jp.co.sharp.android.calc.CalculatorActivity}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.view.BaseActivity}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.sonymobile.exactcalculator/com.sonymobile.exactcalculator.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="google_calculator" />
+    <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.CalculatorActivity}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.oneplus.calculator/com.oneplus.calculator.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.meizu.flyme.calculator/com.meizu.flyme.calculator.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{cn.nubia.calculator2.preset/cn.nubia.calculator2.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.android.bbkcalculator/com.android.bbkcalculator.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.zui.calculator/com.zui.calculator.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.tct.calculator.bb/com.tct.calculator.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.smartisanos.calculator/com.smartisanos.calculator.Calculator}" drawable="system_calculator" />
+    <item component="ComponentInfo{com.android.musicfx/com.android.musicfx.ActivityMusic}" drawable="system_audio_fx"/>
+    <item component="ComponentInfo{org.mokee.audiofx/org.mokee.audiofx.activity.ActivityMusic}" drawable="system_audio_fx" />
+    <item component="ComponentInfo{org.lineageos.audiofx/org.lineageos.audiofx.activity.ActivityMusic}" drawable="system_audio_fx" />
+    <item component="ComponentInfo{com.mokee.audiofx/com.mokee.audiofx.activity.ActivityMusic}" drawable="system_audio_fx" />
+    <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.activity.ActivityMusic}" drawable="system_audio_fx" />
+    <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic}" drawable="system_audio_fx" />
+    <item component="ComponentInfo{tv.danmaku.bilibilihd/tv.danmaku.bili.MainActivityV2}" drawable="bilibili" />
+    <item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili" />
+    <item component="ComponentInfo{tv.danmaku.bili/tv.danmaku.bili.MainActivityV2}" drawable="bilibili"/>
+    <item component="ComponentInfo{tv.danmaku.bili/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili" />
+    <item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili" />
+    <item component="ComponentInfo{com.bilibili.tv/com.bilibili.tv.ui.splash.SplashActivity}" drawable="bilibili" />
+    <!-- 白马地图 -->
+    <item component="ComponentInfo{me.gfuil.bmap/me.gfuil.bmap.StartActivity5}" drawable="bmap" />
+    <item component="ComponentInfo{me.gfuil.bmap/me.gfuil.bmap.StartActivity0}" drawable="bmap" />
+    <item component="ComponentInfo{me.gfuil.bmap.lite/me.gfuil.bmap.lite.activity.MainActivity}" drawable="bmap"/>
+    <item component="ComponentInfo{me.gfuil.bmap/me.gfuil.bmap.StartActivity3}" drawable="bmap"/>
+    <item component="ComponentInfo{me.gfuil.bmap/me.gfuil.bmap.StartActivity}" drawable="bmap"/>
+    <item component="ComponentInfo{me.gfuil.bmap/me.gfuil.bmap.activity.StartActivity}" drawable="bmap"/>
+    <item component="ComponentInfo{me.gfuil.bmap/me.gfuil.bmap.activity.MainActivity}" drawable="bmap" />
+    <item component="ComponentInfo{com.android.browser/com.android.browser.BrowserLaunchActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.android.browser.launch.SplashActivity}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.heytap.browser/com.android.browser.BrowserActivity}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.havoc.browser/com.havoc.browser.MainActivity}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.android.browser/com.android.browser.launch.SplashActivity}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.huawei.browser/com.huawei.browser.Main}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.nearme.browser/com.android.browser.BrowserActivity}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.nbc.browser/com.nbc.browser.view.activity.SplashActivity}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.vivo.browser/com.vivo.browser.BrowserActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{org.cyanogenmod.gello.browser/com.android.browser.BrowserLauncher}" drawable="system_browser" />
+    <item component="ComponentInfo{com.htc.sense.browser/com.htc.sense.browser.BrowserActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.tencent.mtt.SplashActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.android.browser.GNBrowserActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.android.browser.MainActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.android.browser.SplashActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.UCMobile.main.UCMobile}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.opera.Opera}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.google.android.apps.chrome.Main}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.android.browser.PermissionCheckActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/com.android.browser.permission.PermissionCheckActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.browser/org.chromium.chrome.browser.ChromeTabbedActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.android.music/com.android.music.MusicBrowserActivity}" drawable="system_music"/>
+    <item component="ComponentInfo{com.crdroid.music/com.kabouzeid.gramophone.ui.activities.MainActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.android.music/com.android.music.MusicBrowserActivity}" drawable="system_music"/>
+    <item component="ComponentInfo{com.lge.music/com.lge.music.MusicBrowserActivity}" drawable="system_music"/>
+    <item component="ComponentInfo{com.android.bbkmusic/com.android.bbkmusic.WidgetToTrackActivity}" drawable="system_music" />
+    <item component="ComponentInfo{cn.zte.music/cn.zte.music.activity.MusicBrowserActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.android.music/com.android.music.MusicScanResultActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.htc.music/com.htc.music.browserlayer.MusicBrowserTabActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.qiku.music/com.android.music.MusicPlayerTab}" drawable="system_music" />
+    <item component="ComponentInfo{org.lineageos.eleven/org.lineageos.eleven.ui.activities.HomeActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.evenwell.music/com.fihtdc.music.ui.activities.MainActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.android.music/com.android.music.ui.MusicBrowserActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.meizu.media.music/com.meizu.media.music.MusicActivity}" drawable="system_music" />
+    <item component="ComponentInfo{cn.nubia.music.preset/cn.nubia.music.MainActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.cyanogenmod.eleven/com.cyanogenmod.eleven.ui.activities.HomeActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.android.mediacenter/com.android.mediacenter.PageActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.nbc.music/com.nbc.music.MusicBrowserActivity}" drawable="system_music" />
+    <item component="ComponentInfo{com.android.soundrecorder/com.sprd.soundrecorder.RecorderActivity}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{com.splendapps.vox/com.splendapps.vox.MainActivity}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.tct.soundrecorder/com.tct.soundrecorder.SoundRecorder}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.RecordListActivity}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.google.android.apps.recorder/com.google.android.apps.recorder.ui.recordings.MainActivity}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.coloros.soundrecorder/oppo.multimedia.soundrecorder.filebrowser.BrowseFile}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.kimcy929.secretvideorecorder/com.kimcy929.secretvideorecorder.LoginActivity_1}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.evenwell.voicenotf/com.evenwell.voicenotf.MainActivity}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.lge.hifirecorder/com.lge.hifirecorder.LaunchHifiRecorder}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.digipom.easyvoicerecorder.pro/com.digipom.easyvoicerecorder.ui.activity.EasyVoiceRecorderActivity}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.tct.soundrecorder.bb/com.tct.soundrecorder.SoundRecorder}" drawable="system_audio_recorder"/>
+    <item component="ComponentInfo{com.android.bbksoundrecorder/com.android.bbksoundrecorder.SoundRecorder}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{org.mokee.recorder/org.lineageos.recorder.RecorderActivity}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{cn.zte.recorder/cn.zte.recorder.RecordHomeActivity}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{com.htc.soundrecorder/com.htc.soundrecorder.SoundRecorderBG}" drawable="system_audio_recorder_6" />
+    <item component="ComponentInfo{com.qiku.android.soundrecorder/com.qiku.android.soundrecorder.SplashActivity}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorder}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{org.lineageos.recorder/org.lineageos.recorder.RecorderActivity}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.MzRecorderActivity}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{cn.nubia.soundrecorder.preset/cn.nubia.soundrecorder.ui.RecordingActivity}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{com.evenwell.voicenote/com.evenwell.voicenote.MainActivity}" drawable="system_audio_recorder" />
+    <item component="ComponentInfo{org.lineageos.jelly/org.lineageos.jelly.MainActivity}" drawable="system_browser" />
+    <item component="ComponentInfo{com.github.kr328.clash_for_android.foss/com.github.kr328.clash_for_android.MainActivity}" drawable="clash_for_android" />
+    <item component="ComponentInfo{com.github.kr328.clash_for_androidr/com.github.kr328.clash_for_android.MainActivity}" drawable="clash_for_android"/>
+    <item component="ComponentInfo{com.github.kr328.clash_for_android/com.github.kr328.clash_for_android.MainActivity}" drawable="clash_for_android"/>
+    <item component="ComponentInfo{com.github.kr328.clash.foss/com.github.kr328.clash.MainActivity}" drawable="clash_for_android"/>
+    <item component="ComponentInfo{com.github.ccg.clash_for_androida/com.github.cgg.clash_for_androida.MainActivity}" drawable="clash_for_android"/>
+    <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="discord" />
+    <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="discord" />
+    <item component="ComponentInfo{com.augustro.filemanager/com.augustro.filemanager.activities.MainActivity}" drawable="system_files"/>
+    <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Orange}" drawable="system_files"/>
+    <item component="ComponentInfo{com.jrdcom.filemanager/com.jrdcom.filemanager.activity.FileBrowserActivity}" drawable="system_files"/>
+    <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity}" drawable="system_files"/>
+    <item component="ComponentInfo{com.lge.filemanager/com.lge.filemanager.view.LaunchActivity}" drawable="system_files"/>
+    <item component="ComponentInfo{com.jrdcom.filemanager.bb/com.jrdcom.filemanager.activity.FileBrowserActivity}" drawable="system_files"/>
+    <item component="ComponentInfo{com.jrdcom.filemanager.bb/com.jrdcom.filemanager.activity.FileBrowserActivity}" drawable="system_files"/>
+    <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManagerActivity}" drawable="system_files" />
+    <item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.lenovo.FileBrowser2/com.lenovo.FileBrowser.activities.FileBrowserMain}" drawable="system_files" />
+    <item component="ComponentInfo{com.nineifriend.gaia/com.nineifriend.gaia.activity.AgreeActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.htc.filemanager/com.htc.filemanager.FileManagerActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.qiku.android.filebrowser/com.qiku.android.filebrowser.activity.LeadingActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.coloros.filemanager/com.coloros.filemanager.Main}" drawable="system_files" />
+    <item component="ComponentInfo{com.fihtdc.filemanager/com.fihtdc.filemanager.FileManager}" drawable="system_files" />
+    <item component="ComponentInfo{cn.nubia.myfile/cn.nubia.myfile.CategoryActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.nbc.filemanager/com.fihtdc.filemanager.FileManager}" drawable="system_files" />
+    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="system_files_blue"/>
+    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="system_files_blue"/>
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.DocumentsActivity}" drawable="system_files_blue" />
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.StandaloneLauncherActivity}" drawable="system_files_blue" />
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.Launcher}" drawable="system_files_blue" />
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="system_files_blue" />
+    <item component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}" drawable="system_files_blue" />
+    <item component="ComponentInfo{com.mi.android.globalFileexplorer/com.android.fileexplorer.FileExplorerTabActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.coloros.filemanager/com.coloros.filemanager.filerefactor.ui.main.MainActivity}" drawable="system_files"/>
+    <item component="ComponentInfo{com.zui.filemanager/com.zui.filemanager.MainActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.meizu.filemanager/com.meizu.flyme.filemanager.activity.HomeActivity}" drawable="system_files" />
+    <item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="google_fit" />
+    <item component="ComponentInfo{com.vivo.health/com.vivo.health.main.activity.GuideActivity}" drawable="system_health" />
+    <item component="ComponentInfo{com.oneplus.health.international/com.heytap.health.launch.LaunchActivity}" drawable="system_health" />
+    <item component="ComponentInfo{com.heytap.health/com.heytap.health.oobe.LaunchActivity}" drawable="system_health"/>
+    <item component="ComponentInfo{com.mi.health/com.mi.health.home.HomeActivity}" drawable="system_health"/>
+    <item component="ComponentInfo{com.microsoft.kapp/com.microsoft.kapp.activities.SplashActivity}" drawable="system_health"/>
+    <item component="ComponentInfo{com.sec.android.app.shealth/com.samsung.android.app.shealth.home.HomeMainActivity}" drawable="system_health" />
+    <item component="ComponentInfo{com.sec.android.app.shealth/com.sec.android.app.shealth.SplashScreenActivity}" drawable="system_health" />
+    <item component="ComponentInfo{com.sec.android.app.shealth/com.sec.android.app.shealth.RootActivity}" drawable="system_health" />
+    <item component="ComponentInfo{com.microsoft.amp.apps.binghealthandfitness/com.microsoft.amp.apps.binghealthandfitness.activities.views.home.HomeActivity}" drawable="system_health" />
+    <item component="ComponentInfo{com.huawei.health/com.huawei.health.MainActivity}" drawable="system_health" />
+    <item component="ComponentInfo{de.beowulf.wetter/de.beowulf.wetter.activities.LaunchActivity}" drawable="system_weather_open" />
+    <item component="ComponentInfo{com.zte.weather/com.zte.weather.ui.HomeActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.nothing.weather/com.nothing.weather.main.ui.MainActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{wongi.weather/wongi.weather.activity.MainActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.coloros.weather2/com.coloros.weather.main.view.WeatherMainActivity}" drawable="system_weather"/>
+    <item component="ComponentInfo{net.oneplus.weather/net.oneplus.weather.app.MainActivity}" drawable="system_weather"/>
+    <item component="ComponentInfo{com.moji.evenwell/com.moji.mjweather.LauncherActivity}" drawable="system_weather"/>
+    <item component="ComponentInfo{com.coloros.weather2/com.coloros.weather.OppoMainActivity}" drawable="system_weather"/>
+    <item component="ComponentInfo{com.meizu.flyme.weather/com.meizu.flyme.weather.modules.home.WeatherMainActivity}" drawable="system_weather"/>
+    <item component="ComponentInfo{com.evenwell.weather/com.nbc.willcloud.athenasdk.views.LoadingActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.vivo.weather/com.vivo.weather.WeatherMain}" drawable="system_weather" />
+    <item component="ComponentInfo{com.sec.android.daemonapp/com.samsung.android.weather.app.AppLauncherActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.coolwind.weather/com.coolwind.weather.SplashActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.htc.Weather/com.htc.Weather.WeatherEntry}" drawable="system_weather" />
+    <item component="ComponentInfo{com.samsung.android.weather/com.samsung.android.weather.app.WeatherLauncher}" drawable="system_weather" />
+    <item component="ComponentInfo{com.huawei.android.totemweatherapp/com.huawei.android.totemweatherapp.WeatherHome}" drawable="system_weather" />
+    <item component="ComponentInfo{com.sonymobile.xperiaweather/com.sonymobile.xperiaweather.MainActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{sina.mobile.tianqitongletv/com.sina.tianqitong.ui.main.MainTabActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.miui.weather2/com.miui.weather2.ActivityWeatherMain}" drawable="system_weather" />
+    <item component="ComponentInfo{com.coloros.weather/com.coloros.weather.OppoMainActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.evenwell.weather/com.fihtdc.weather.activity.WeatherDetailActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.meizu.flyme.weather/com.meizu.flyme.weather.WeatherMainActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.tct.weather.bb/com.tct.weather.MainActivity}" drawable="system_weather" />
+    <item component="ComponentInfo{com.smartisanos.weather/com.smartisanos.weather.CityWeather}" drawable="system_weather" />
+    <item component="ComponentInfo{com.htc.Weather/com.htc.Weather.WeatherEntryAlias}" drawable="system_weather" />
+    <item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder"/>
+    <item component="ComponentInfo{com.nononsenseapps.feeder.play/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder" />
+    <item component="ComponentInfo{me.ash.reader/me.ash.reader.MainActivity}" drawable="read_you" />
+    <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.activities.SplashActivity}" drawable="fk_kernel_manager" />
+    <item component="ComponentInfo{com.franco.kernel/a.spl}" drawable="fk_kernel_manager"/>
+    <item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncherQuickstep}" drawable="lawnchair" />
+    <item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher}" drawable="lawnchair" />
+    <item component="ComponentInfo{ch.deletescape.lawnchair.plah/ch.deletescape.lawnchair.settings.ui.SettingsLauncherActivity}" drawable="lawnchair"/>
+    <item component="ComponentInfo{ch.deletescape.lawnchair.plah/ch.deletescape.lawnchair.LawnchairLauncher}" drawable="lawnchair"/>
+    <item component="ComponentInfo{ch.deletescape.lawnchair.ci/ch.deletescape.lawnchair.settings.ui.SettingsLauncherActivity}" drawable="lawnchair"/>
+    <item component="ComponentInfo{ch.deletescape.lawnchair.ci/ch.deletescape.lawnchair.LawnchairLauncher}" drawable="lawnchair" />
+    <item component="ComponentInfo{ch.deletescape.lawnchair.plah/ch.deletescape.lawnchair.Launcher}" drawable="lawnchair" />
+    <item component="ComponentInfo{org.mokee.lawnchair/ch.deletescape.lawnchair.Launcher}" drawable="lawnchair" />
+    <item component="ComponentInfo{ch.deletescape.lawnchair/ch.deletescape.lawnchair.Launcher}" drawable="lawnchair" />
+    <item component="ComponentInfo{ch.deletescape.lawnchair.qa/ch.deletescape.lawnchair.Launcher}" drawable="lawnchair" />
+    <item component="ComponentInfo{com.lawnchair.air/ch.deletescape.lawnchair.Launcher}" drawable="lawnchair" />
+    <item component="ComponentInfo{com.spotify.kids/com.spotify.kids.app.MainActivity}" drawable="spotify_kids"/>
+    <item component="ComponentInfo{com.spotify.lite/com.spotify.lite.features.launcher.LauncherActivity}" drawable="spotify_lite"/>
+    <item component="ComponentInfo{com.spotify.s4a/com.spotify.s4a.SplashActivity}" drawable="spotify_for_artists" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify" />
+    <item component="ComponentInfo{fm.anchor.android/anchor.MainActivity}" drawable="spotify_for_podcasters" />
+    <item component="ComponentInfo{com.sonymobile.cinemapro/com.sonymobile.cinemapro.CinemaProActivity}" drawable="system_camcorder_sony_pro"/>
+    <item component="ComponentInfo{jp.co.sony.mc.videopro/jp.co.sony.mc.videopro.VideoProActivity}" drawable="system_camcorder_sony_pro"/>
+
+
+
+    <!-- Dynamic Calendars -->
+    <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" prefix="google_calendar_" />
+    <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="google_calendar_" />
+    <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Orange}" prefix="simple_calendar_"/>
+    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchTasksActivity}" prefix="system_calendar_"/>
+    <calendar component="ComponentInfo{cn.etouch.ecalendar/cn.etouch.ecalendar.ECalendar}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.sonymobile.calendar/com.sonymobile.calendar.LaunchActivity}" prefix="google_calendar_" />
+    <calendar component="ComponentInfo{com.smartisan.calendar/com.android.calendar.AllInOneActivity}" prefix="smartisan_calendar_" />
+    <calendar component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}" prefix="google_calendar_" />
+    <calendar component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.AllInOneActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" prefix="google_calendar_" />
+    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.htc.calendar/com.htc.calendar.LaunchActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarActivityMain}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarCarouselActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.asus.calendar.watchcalendar/com.asus.calendar.watchcalendar.WatchCalendarActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.asus.calendar.watchcalendar/com.asus.calendar.watchcalendar.LaunchActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.sonyericsson.androidapp.lunarcalendar/com.sonyericsson.androidapp.lunarcalendar.CalendarActivity}" prefix="google_calendar_" />
+    <calendar component="ComponentInfo{com.sonyericsson.calendar/com.sonyericsson.calendar.monthview.MonthViewActivity}" prefix="google_calendar_" />
+    <calendar component="ComponentInfo{com.motorola.calendar/com.motorola.calendar.LaunchActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.oppo.calendar/com.oppo.calendar.activity.CalendarActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.lge.calendar/com.lge.calendar.LaunchActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthUI}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.sec.android.app.latin.launcher.calendar/com.sec.android.app.latin.launcher.calendar.Launcher}" prefix="google_calendar_" />
+    <calendar component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthActivityNew}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.MonthActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.splashpic.SplashActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="system_calendar_"/>
+    <!-- LineageOS 日曆 -->
+    <calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="system_calendar_" />
+    <!-- Colour OS 日曆 -->
+    <calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="system_calendar_" />
+    <!-- 日历 -->
+    <calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="smartisan_calendar_" />
+    <!-- 日历 -->
+    <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Orange}" prefix="simple_calendar_" />
+    <!-- 日历 -->
+    <calendar component="ComponentInfo{com.motorola.cn.calendar/com.motorola.cn.calendar.AllInOneActivity}" prefix="system_calendar_" />
+    <!-- Simple Calendar -->
+    <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_orange}" prefix="simple_calendar_" />
+    <!-- Xiaomi Calendar -->
+    <calendar component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="system_calendar_" />
+    <calendar component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="google_calendar_"/>
+
+    <!--  Settings  -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.GnSettingsTabActivity}" drawable="system_settings" />
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="system_settings" />
     <item component="ComponentInfo{com.android.settings/com.android.settings.MainSettings}" drawable="system_settings" />
@@ -62,7 +363,9 @@
     <item component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}" drawable="system_clock"/>
     <item component="ComponentInfo{com.best.deskclock/com.best.deskclock.DeskClock}" drawable="google_clock"/>
     <item component="ComponentInfo{com.chen.deskclock/com.chen.deskclock.DeskClock}" drawable="system_clock_material"/>
-<!-- Camera -->
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="system_clock_material"/>
+
+    <!-- Camera -->
     <item component="ComponentInfo{com.sonymobile.photographypro/com.sonymobile.photopro.PhotoProActivity}" drawable="system_camera_sony_pro"/>
     <item component="ComponentInfo{com.sonymobile.photopro/com.sonymobile.photopro.PhotoProActivity}" drawable="system_camera_sony_pro"/>
     <item component="ComponentInfo{org.lineageos.aperture/org.lineageos.aperture.CameraLauncher}" drawable="system_camera"/>
@@ -245,4 +548,43 @@
     <item component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="system_contacts" />
     <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Orange}" drawable="simple_contacts" />
 
+<!-- Nova Launcher Stuff -->
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.preferences.SettingsActivity}" drawable="nova_launcher_settings" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher.prime/com.teslacoilsw.launcher.prime.NovaLauncherPrimeActivity}" drawable="nova_launcher_prime"/>
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="nova_launcher" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.exple.gexing.qianm.MainActivity}" drawable="nova_launcher" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/.preferences.SettingsActivity}" drawable="nova_launcher_settings" />
+    <item
+        component=":LAUNCHER_ACTION_APP_DRAWER"
+        drawable="system_app_drawer_3" />
+    <item
+        component=":BROWSER"
+        drawable="system_browser" />
+    <item
+        component=":CALCULATOR"
+        drawable="system_calculator" />
+    <item
+        component=":CALENDAR"
+        drawable="system_calendar_21" />
+    <item
+        component=":CAMERA"
+        drawable="system_camera" />
+    <item
+        component=":CLOCK"
+        drawable="system_clock" />
+    <item
+        component=":CONTACTS"
+        drawable="system_contacts" />
+    <item
+        component=":EMAIL"
+        drawable="system_mail" />
+    <item
+        component=":GALLERY"
+        drawable="system_gallery" />
+    <item
+        component=":PHONE"
+        drawable="system_phone" />
+    <item
+        component=":SMS"
+        drawable="system_messages" />
 </resources>

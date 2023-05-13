@@ -34,7 +34,7 @@
     <bool name="includes_adaptive_icons">false</bool>
 
     <!-- Icon Pack designer/owner e-mail -->
-    <string name="email">someone@email.com</string>
+    <string name="email">lealeafdesign@gmail.com</string>
 
     <!-- Mail subjects for simple e-mail and requests e-mail -->
     <string name="email_subject">OS Y</string>
