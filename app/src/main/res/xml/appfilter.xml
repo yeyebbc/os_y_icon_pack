@@ -116,7 +116,6 @@
     <item component="ComponentInfo{tv.danmaku.bili/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili" />
     <item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili" />
     <item component="ComponentInfo{com.bilibili.tv/com.bilibili.tv.ui.splash.SplashActivity}" drawable="bilibili" />
-    <!-- 白马地图 -->
     <item component="ComponentInfo{me.gfuil.bmap/me.gfuil.bmap.StartActivity5}" drawable="bmap" />
     <item component="ComponentInfo{me.gfuil.bmap/me.gfuil.bmap.StartActivity0}" drawable="bmap" />
     <item component="ComponentInfo{me.gfuil.bmap.lite/me.gfuil.bmap.lite.activity.MainActivity}" drawable="bmap"/>
@@ -281,7 +280,19 @@
     <item component="ComponentInfo{fm.anchor.android/anchor.MainActivity}" drawable="spotify_for_podcasters" />
     <item component="ComponentInfo{com.sonymobile.cinemapro/com.sonymobile.cinemapro.CinemaProActivity}" drawable="system_camcorder_sony_pro"/>
     <item component="ComponentInfo{jp.co.sony.mc.videopro/jp.co.sony.mc.videopro.VideoProActivity}" drawable="system_camcorder_sony_pro"/>
-
+    <item component="ComponentInfo{com.moez.QKSMS/com.moez.QKSMS.feature.main.MainActivity}" drawable="system_messages"/>
+    <item component="ComponentInfo{com.tencent.qqmusiclite/com.tencent.qqmusiclite.SplashActivity}" drawable="qq_music" />
+    <item component="ComponentInfo{com.tencent.qqmusic/com.tencent.qqmusic.MainActivity}" drawable="qq_music" />
+    <item component="ComponentInfo{com.tencent.qqmusic/com.tencent.qqmusic.activity.AppStarterActivity}" drawable="qq_music" />
+    <item component="ComponentInfo{com.tencent.qqmusicpad/com.tencent.qqmusicpad.activity.AppStarterActivity}" drawable="qq_music" />
+    <item component="ComponentInfo{app.rvx.android.youtube/com.google.android.youtube.app.honeycomb.ShellHomeActivity}" drawable="youtube" />
+    <item component="ComponentInfo{com.google.android.ogyoutube/com.google.android.ogyoutube.app.honeycomb.Shell$HomeActivity}" drawable="youtube"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" />
+    <item component="ComponentInfo{com.vanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" />
+    <item component="ComponentInfo{eu.faircode.email/eu.faircode.email.ActivityMain}" drawable="fairemail"/>
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="k_9_mail" />
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="k_9_mail"/>
 
 
     <!-- Dynamic Calendars -->

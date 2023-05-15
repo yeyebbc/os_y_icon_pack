@@ -56,6 +56,9 @@
         <item drawable="gmail_alt" />
         <item drawable="google_calculator" />
         <item drawable="google_fit" />
+        <item drawable="youtube" />
+        <item drawable="youtube_alt" />
+        <item drawable="youtube_music" />
     </category>
     
     <category title="Dynamic Calendars">
@@ -230,6 +233,9 @@
         <item drawable="spotify_for_artists" />
         <item drawable="spotify_kids" />
         <item drawable="spotify_for_podcasters" />
+        <item drawable="qq_music" />
+        <item drawable="fairemail" />
+        <item drawable="k_9_mail" />
     </category>
 
 </resources>
