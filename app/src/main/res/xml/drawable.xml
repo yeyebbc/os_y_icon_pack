@@ -35,6 +35,7 @@
         <item drawable="system_app_drawer_2" />
         <item drawable="system_app_drawer_3" />
         <item drawable="system_app_drawer_4" />
+        <item drawable="system_terminal" />
     </category>
     
     <category title="Google" >
@@ -59,6 +60,12 @@
         <item drawable="youtube" />
         <item drawable="youtube_alt" />
         <item drawable="youtube_music" />
+        <item drawable="google_gboard" />
+        <item drawable="google_files" />
+        <item drawable="google_pinyin" />
+        <item drawable="google_zhuyin" />
+        <item drawable="google_handwriting" />
+        <item drawable="google_chromium" />
     </category>
     
     <category title="Dynamic Calendars">
@@ -236,6 +243,10 @@
         <item drawable="qq_music" />
         <item drawable="fairemail" />
         <item drawable="k_9_mail" />
+        <item drawable="fcitx_for_android" />
+        <item drawable="mozc_for_android" />
+        <item drawable="termux" />
+        <item drawable="dolby_atmos" />
     </category>
 
 </resources>

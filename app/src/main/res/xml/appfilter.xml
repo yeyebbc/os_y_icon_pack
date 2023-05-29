@@ -110,6 +110,7 @@
     <item component="ComponentInfo{com.mokee.audiofx/com.mokee.audiofx.activity.ActivityMusic}" drawable="system_audio_fx" />
     <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.activity.ActivityMusic}" drawable="system_audio_fx" />
     <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic}" drawable="system_audio_fx" />
+    <item component="ComponentInfo{com.reiryuki.soundenhancementlauncher/net.dinglisch.android.taskerm.Kid}" drawable="system_audio_fx" />
     <item component="ComponentInfo{tv.danmaku.bilibilihd/tv.danmaku.bili.MainActivityV2}" drawable="bilibili" />
     <item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili" />
     <item component="ComponentInfo{tv.danmaku.bili/tv.danmaku.bili.MainActivityV2}" drawable="bilibili"/>
@@ -293,6 +294,19 @@
     <item component="ComponentInfo{eu.faircode.email/eu.faircode.email.ActivityMain}" drawable="fairemail"/>
     <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="k_9_mail" />
     <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="k_9_mail"/>
+    <item component="ComponentInfo{com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity}" drawable="google_gboard" />
+    <item component="ComponentInfo{org.fcitx.fcitx5.android/org.fcitx.fcitx5.android.ui.main.MainActivity}" drawable="fcitx_for_android" />
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxFailsafeActivity}" drawable="termux"/>
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="termux"/>
+    <item component="ComponentInfo{com.dolby.dax2appUI/com.dolby.dax2appUI.MainActivity}" drawable="dolby_atmos" />
+    <item component="ComponentInfo{com.dolby.daxappUI/com.dolby.daxappUI.MainActivity}" drawable="dolby_atmos" />
+    <item component="ComponentInfo{com.dolby.daxappui/com.dolby.daxappui.MainActivity}" drawable="dolby_atmos"/>
+    <item component="ComponentInfo{com.dolby.dax2appUI/com.motorola.dlbafx.MotoMainActivity}" drawable="dolby_atmos"/>
+    <item component="ComponentInfo{com.dolby.ds1appUI/com.dolby.ds1appUI.MainActivity}" drawable="dolby_atmos"/>
+    <item component="ComponentInfo{com.dolby/com.dolby.ds1appUI.MainActivity}" drawable="dolby_atmos"/>
+    <item component="ComponentInfo{org.chromium.chrome/com.google.android.apps.chrome.Main}" drawable="google_chromium" />
+    <item component="ComponentInfo{org.bromite.chromium/com.google.android.apps.chrome.Main}" drawable="google_chromium"/>
+    <item component="ComponentInfo{org.mozc.android.inputmethod.japanese/org.mozc.android.inputmethod.japanese.LauncherActivity}" drawable="mozc_for_android"/>
 
 
     <!-- Dynamic Calendars -->
