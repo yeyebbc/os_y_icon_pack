@@ -247,6 +247,7 @@
         <item drawable="mozc_for_android" />
         <item drawable="termux" />
         <item drawable="dolby_atmos" />
+        <item drawable="microsoft_onedrive" />
     </category>
 
 </resources>
