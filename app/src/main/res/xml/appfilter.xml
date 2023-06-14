@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+    <!-- Classical -->
+	<item component="ComponentInfo{com.apple.android.music.classical/com.apple.android.music.classical.app.features.launcherscreen.ui.LauncherActivity}" drawable="apple_music_classical"/>
     <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity}" drawable="microsoft_onenote" />
     <!-- FM radio -->
     <item component="ComponentInfo{com.sonymobile.fmradio/com.sonymobile.fmradio.ui.FmRadioActivity}" drawable="system_fm_radio" />

@@ -255,6 +255,7 @@
         <item drawable="tencent_map" />
         <item drawable="pinterest" />
         <item drawable="microsoft_onenote" />
+        <item drawable="apple_music_classical" />
     </category>
 
 </resources>
