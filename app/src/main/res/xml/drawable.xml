@@ -25,6 +25,8 @@
         <item drawable="system_calculator" />
         <item drawable="system_browser" />
         <item drawable="system_music" />
+        <item drawable="system_music_2" />
+        <item drawable="system_music_sony" />
         <item drawable="system_audio_recorder" />
         <item drawable="system_files" />
         <item drawable="system_files_blue" />
