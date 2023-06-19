@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+	<!-- AccuBattery -->
+	<item component="ComponentInfo{com.digibites.accubattery/com.digibites.abatterysaver.BatterySaverActivity}" drawable="accubattery"/>
+	<!-- Activity Launcher -->
+	<item component="ComponentInfo{de.szalkowski.activitylauncher/de.szalkowski.activitylauncher.MainActivity}" drawable="activity_launcher"/>
+	<!-- Adobe Capture -->
+	<item component="ComponentInfo{com.adobe.creativeapps.gather/com.adobe.creativeapps.gather.activity.GatherSplashScreenActivity}" drawable="adobe_capture"/>
+	<!-- Bing -->
+	<item component="ComponentInfo{com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity}" drawable="microsoft_bing_search"/>
+	<!-- Designer Tools Pro -->
+	<item component="ComponentInfo{kg.stark.designertools/kg.stark.designertools.ui.main.MainActivity}" drawable="designer_tools"/>
+	<!-- Game enhancer -->
+	<item component="ComponentInfo{com.sonymobile.gameenhancer/com.sonymobile.gameenhancer.common.MainActivity}" drawable="system_games_sony"/>
+	<!-- KDE Connect -->
+	<item component="ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity}" drawable="kde_connect"/>
+	<!-- Phonograph Plus -->
+	<item component="ComponentInfo{player.phonograph.plus/player.phonograph.ui.activities.LauncherActivity}" drawable="phonograph"/>
+	<!-- Pocket Casts -->
+	<item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity}" drawable="pocket_casts"/>
 	<!-- Files -->
 	<item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="google_files"/>
     <!-- Classical -->

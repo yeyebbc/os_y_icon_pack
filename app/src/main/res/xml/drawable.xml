@@ -38,6 +38,8 @@
         <item drawable="system_terminal" />
         <item drawable="system_audio_recorder_2" />
         <item drawable="system_fm_radio" />
+        <item drawable="system_games" />
+        <item drawable="system_games_sony" />
     </category>
     
     <category title="Google" >
@@ -256,6 +258,14 @@
         <item drawable="pinterest" />
         <item drawable="microsoft_onenote" />
         <item drawable="apple_music_classical" />
+        <item drawable="accubattery" />
+        <item drawable="activity_launcher" />
+        <item drawable="adobe_capture" />
+        <item drawable="microsoft_bing_search" />
+        <item drawable="designer_tools" />
+        <item drawable="kde_connect" />
+        <item drawable="phonograph" />
+        <item drawable="pocket_casts" />
     </category>
 
 </resources>
