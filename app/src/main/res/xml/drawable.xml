@@ -66,12 +66,17 @@
         <item drawable="youtube" />
         <item drawable="youtube_alt" />
         <item drawable="youtube_music" />
+        <item drawable="youtube_tv" />
         <item drawable="google_gboard" />
         <item drawable="google_files" />
         <item drawable="google_pinyin" />
         <item drawable="google_zhuyin" />
         <item drawable="google_handwriting" />
         <item drawable="google_chromium" />
+        <item drawable="google_home" />
+        <item drawable="google_translate" />
+        <item drawable="google_voice" />
+        <item drawable="google_lens" />
     </category>
     
     <category title="Dynamic Calendars">
@@ -268,6 +273,8 @@
         <item drawable="kde_connect" />
         <item drawable="phonograph" />
         <item drawable="pocket_casts" />
+        <item drawable="magisk" />
+        <item drawable="playstation" />
     </category>
 
 </resources>
