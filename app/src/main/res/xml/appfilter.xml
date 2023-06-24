@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+	<!-- Play Books -->
+	<item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="google_play_books"/>
+	<!-- Play Console -->
+	<item component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity}" drawable="google_play_console"/>
+	<!-- Play Games -->
+	<item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="google_play_games"/>
+	<!-- PS Remote Play -->
+	<item component="ComponentInfo{com.playstation.remoteplay/com.playstation.remoteplay.RpActivityMain}" drawable="playstation_remote_play"/>
+	<!-- PS4 Second Screen -->
+	<item component="ComponentInfo{com.playstation.mobile2ndscreen/com.playstation.mobile2ndscreen.activity.EntranceActivity}" drawable="playstation_second_screen"/>
     <!-- PS App -->
     <item component="ComponentInfo{com.scee.psxandroid/com.scee.psxandroid.activity.TopActivity}" drawable="playstation"/>
     <!-- Voice -->

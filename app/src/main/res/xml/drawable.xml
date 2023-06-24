@@ -77,6 +77,9 @@
         <item drawable="google_translate" />
         <item drawable="google_voice" />
         <item drawable="google_lens" />
+        <item drawable="google_play_books" />
+        <item drawable="google_play_games" />
+        <item drawable="google_play_console" />
     </category>
     
     <category title="Dynamic Calendars">
@@ -275,6 +278,8 @@
         <item drawable="pocket_casts" />
         <item drawable="magisk" />
         <item drawable="playstation" />
+        <item drawable="playstation_remote_play" />
+        <item drawable="playstation_second_screen" />
     </category>
 
 </resources>
