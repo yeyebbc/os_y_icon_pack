@@ -80,6 +80,7 @@
         <item drawable="google_play_books" />
         <item drawable="google_play_games" />
         <item drawable="google_play_console" />
+        <item drawable="google_tv" />
     </category>
     
     <category title="Dynamic Calendars">
@@ -280,6 +281,7 @@
         <item drawable="playstation" />
         <item drawable="playstation_remote_play" />
         <item drawable="playstation_second_screen" />
+        <item drawable="xbox" />
     </category>
 
 </resources>
